@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E6680DE26DB799C00BDF6C5 /* MailListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6680DD26DB799C00BDF6C5 /* MailListView.swift */; };
+		3E6680E026DB79C500BDF6C5 /* SwipeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6680DF26DB79C500BDF6C5 /* SwipeButtonView.swift */; };
+		3E6680E226DB79EF00BDF6C5 /* ReadButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6680E126DB79EF00BDF6C5 /* ReadButtonView.swift */; };
+		3E6680E426DB7A1400BDF6C5 /* DeleteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6680E326DB7A1400BDF6C5 /* DeleteButtonView.swift */; };
+		3E6680E626DB7A3700BDF6C5 /* WaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6680E526DB7A3700BDF6C5 /* WaveShape.swift */; };
+		3E6680E826DB7A5B00BDF6C5 /* MailDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6680E726DB7A5B00BDF6C5 /* MailDetailView.swift */; };
+		3E6680EA26DB7A9A00BDF6C5 /* MailItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6680E926DB7A9A00BDF6C5 /* MailItemView.swift */; };
+		3E6680ED26DB7ACD00BDF6C5 /* MailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6680EC26DB7ACD00BDF6C5 /* MailManager.swift */; };
+		3E6680F026DB7B0500BDF6C5 /* MailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6680EF26DB7B0500BDF6C5 /* MailItem.swift */; };
+		3E6680F326DB7B3F00BDF6C5 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6680F226DB7B3F00BDF6C5 /* Color+Extension.swift */; };
+		3E6680F526DB7B6700BDF6C5 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6680F426DB7B6700BDF6C5 /* DataModel.swift */; };
 		3E80AAA726D82C4700C39240 /* MailAppUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E80AAA626D82C4700C39240 /* MailAppUIApp.swift */; };
 		3E80AAA926D82C4700C39240 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E80AAA826D82C4700C39240 /* ContentView.swift */; };
 		3E80AAAB26D82C4900C39240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E80AAAA26D82C4900C39240 /* Assets.xcassets */; };
@@ -14,6 +25,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E6680DD26DB799C00BDF6C5 /* MailListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailListView.swift; sourceTree = "<group>"; };
+		3E6680DF26DB79C500BDF6C5 /* SwipeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeButtonView.swift; sourceTree = "<group>"; };
+		3E6680E126DB79EF00BDF6C5 /* ReadButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadButtonView.swift; sourceTree = "<group>"; };
+		3E6680E326DB7A1400BDF6C5 /* DeleteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButtonView.swift; sourceTree = "<group>"; };
+		3E6680E526DB7A3700BDF6C5 /* WaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShape.swift; sourceTree = "<group>"; };
+		3E6680E726DB7A5B00BDF6C5 /* MailDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailDetailView.swift; sourceTree = "<group>"; };
+		3E6680E926DB7A9A00BDF6C5 /* MailItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailItemView.swift; sourceTree = "<group>"; };
+		3E6680EC26DB7ACD00BDF6C5 /* MailManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailManager.swift; sourceTree = "<group>"; };
+		3E6680EF26DB7B0500BDF6C5 /* MailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailItem.swift; sourceTree = "<group>"; };
+		3E6680F226DB7B3F00BDF6C5 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		3E6680F426DB7B6700BDF6C5 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		3E80AAA326D82C4700C39240 /* MailAppUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailAppUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E80AAA626D82C4700C39240 /* MailAppUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailAppUIApp.swift; sourceTree = "<group>"; };
 		3E80AAA826D82C4700C39240 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +55,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E6680DC26DB797D00BDF6C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3E80AAA826D82C4700C39240 /* ContentView.swift */,
+				3E6680DD26DB799C00BDF6C5 /* MailListView.swift */,
+				3E6680DF26DB79C500BDF6C5 /* SwipeButtonView.swift */,
+				3E6680E126DB79EF00BDF6C5 /* ReadButtonView.swift */,
+				3E6680E326DB7A1400BDF6C5 /* DeleteButtonView.swift */,
+				3E6680E526DB7A3700BDF6C5 /* WaveShape.swift */,
+				3E6680E726DB7A5B00BDF6C5 /* MailDetailView.swift */,
+				3E6680E926DB7A9A00BDF6C5 /* MailItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3E6680EB26DB7ABD00BDF6C5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3E6680EC26DB7ACD00BDF6C5 /* MailManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3E6680EE26DB7AF800BDF6C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E6680EF26DB7B0500BDF6C5 /* MailItem.swift */,
+				3E6680F426DB7B6700BDF6C5 /* DataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3E6680F126DB7B2D00BDF6C5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3E6680F226DB7B3F00BDF6C5 /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		3E80AA9A26D82C4700C39240 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +114,11 @@
 		3E80AAA526D82C4700C39240 /* MailAppUI */ = {
 			isa = PBXGroup;
 			children = (
+				3E6680F126DB7B2D00BDF6C5 /* Extensions */,
+				3E6680EE26DB7AF800BDF6C5 /* Models */,
+				3E6680EB26DB7ABD00BDF6C5 /* Managers */,
+				3E6680DC26DB797D00BDF6C5 /* Views */,
 				3E80AAA626D82C4700C39240 /* MailAppUIApp.swift */,
-				3E80AAA826D82C4700C39240 /* ContentView.swift */,
 				3E80AAAA26D82C4900C39240 /* Assets.xcassets */,
 				3E80AAAF26D82C4900C39240 /* Info.plist */,
 				3E80AAAC26D82C4900C39240 /* Preview Content */,
@@ -138,8 +203,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E6680ED26DB7ACD00BDF6C5 /* MailManager.swift in Sources */,
 				3E80AAA926D82C4700C39240 /* ContentView.swift in Sources */,
+				3E6680DE26DB799C00BDF6C5 /* MailListView.swift in Sources */,
+				3E6680E626DB7A3700BDF6C5 /* WaveShape.swift in Sources */,
 				3E80AAA726D82C4700C39240 /* MailAppUIApp.swift in Sources */,
+				3E6680F026DB7B0500BDF6C5 /* MailItem.swift in Sources */,
+				3E6680F526DB7B6700BDF6C5 /* DataModel.swift in Sources */,
+				3E6680E026DB79C500BDF6C5 /* SwipeButtonView.swift in Sources */,
+				3E6680F326DB7B3F00BDF6C5 /* Color+Extension.swift in Sources */,
+				3E6680EA26DB7A9A00BDF6C5 /* MailItemView.swift in Sources */,
+				3E6680E826DB7A5B00BDF6C5 /* MailDetailView.swift in Sources */,
+				3E6680E226DB79EF00BDF6C5 /* ReadButtonView.swift in Sources */,
+				3E6680E426DB7A1400BDF6C5 /* DeleteButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
